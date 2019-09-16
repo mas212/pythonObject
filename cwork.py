@@ -6,12 +6,16 @@ class Cwork:
 
 		self.location   = location
 		self.price 		= price
+		self.__categori = "weekend"
 
 	def getLocation(self):
 		return self.location
 
 	def getPrice(self):
 		return self.price
+
+	def getCat(self):
+		return self.__categori
 
 class Fasilitas(Cwork):
 	def setFasilitas(self, fasilitas_name):
@@ -24,4 +28,4 @@ print(working.getLocation() +
 	 " this price per hours " 
 	 + working.getPrice() +
 	  " Fasilitas "
-	 + working.setFasilitas("internet"))
+	 + working.setFasilitas("internet") + " categori" + working.getCat())

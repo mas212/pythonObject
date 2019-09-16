@@ -1,17 +1,12 @@
 class Cwork:
 	location = ''
-	price 	 = ''
 
-	def __init__(self, location, price):
+	def __init__(self, location):
 
 		self.location   = location
-		self.price 		= price
 
 	def getLocation(self):
 		return self.location
-
-	def getPrice(self):
-		return self.price
 
 class Fasilitas(Cwork):
 	def setFasilitas(self, fasilitas_name):
@@ -19,9 +14,8 @@ class Fasilitas(Cwork):
 		return self.fasilitas_name
 
 
-working = Fasilitas("Ubud", "1000.000")
+
+working = Fasilitas("Ubud")
 print(working.getLocation() +
 	 " this price per hours " 
-	 + working.getPrice() +
-	  " Fasilitas "
 	 + working.setFasilitas("internet"))
