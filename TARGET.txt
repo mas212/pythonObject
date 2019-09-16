@@ -1,0 +1,8 @@
+
+16 -september - 2019  s/d 22-september 2019
+----------------------------------------------------
+1. matengin basic pthon & oop
+2. memahami konsep flask
+3. basic flask 
+4. 2 project flask
+----------------------------------------------------
