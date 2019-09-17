@@ -18,6 +18,8 @@ class Hero:
 		self.health = up
 		return self.health
 
+	def getPower(self):
+
 hero1 = Hero("mas212", "90", "80", "30")
 print(Hero.jumlah)
 print(hero1.inputName + " power " + hero1.power + " armor" + hero1.armor + " health " + hero1.health)
